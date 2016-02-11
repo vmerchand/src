@@ -1,0 +1,122 @@
+.regular-checkbox {
+	-webkit-appearance: none;
+	background-color: #00698C	;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular-checkbox:active, .regular-checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+	background-color: #00698C	;
+	-webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: 0 0 5px 4px #000000;
+	
+}
+
+
+
+
+.regular-checkbox:checked {
+	background-color: #00698C	;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #BFFFFF;
+}
+
+.regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #BFFFFF;
+	
+}
+
+.big-checkbox {
+	padding: 18px;
+}
+
+.big-checkbox:checked:after {
+	font-size: 28px;
+	left: 6px;
+}
+
+.regular-radio {
+	-webkit-appearance: none;
+	background-color: #00698C;
+	color: #2C49B7;
+	font-weight: 700;
+	font-size: 2.1em;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+	
+	
+}
+
+.regular-radio:checked:after {
+	content: '';
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: #00698C;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	color: #2C49B7;
+	font-weight: 700;
+	font-size: 1.1em;
+}
+
+.regular-radio:checked {
+	content: 'OFF';
+	background-color: #BFFFFF;
+	color: #d9d900;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular-radio:active, .regular-radio:checked:active {
+	background-color: #00698C;
+		-webkit-box-shadow: none;
+     	-moz-box-shadow: none;
+          box-shadow: 0 0 5px 4px #000000;
+		  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.big-radio {
+	padding: 16px;
+}
+
+.big-radio:checked:after {
+
+	width: 24px;
+	height: 24px;
+	left: 4px;
+	top: 4px;
+}
+
+
+	/*content: 'OFF';
+	content: url("../images/woman.png");
+	font: 12px/26px Arial, sans-serif;
+	color: #000;
+	position: relative;
+	right: 40px;
+	z-index: 0;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px rgba(255,255,255,.15);
+}*/
+
+

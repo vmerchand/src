@@ -1,0 +1,20 @@
+Oye no veo mucha diferencia, por lo menos con el cuestionario de entrada, pero sigo trabajando; solo tengo algunas dudas para poder definir la base de datos:
+
+1. Los primeros campos (taller, lugar y fecha) creo que se pueden pre-llenar puesto que es un bloque de encuestas para cada taller; otra opción es que haya combo box (lista desplegable para que el usuario seleccione) y elija el nombre del taller de entre varios, el lugar y la fecha, ya que es sobre una agenda preestablecida. La última es que capture todo (en ese caso, a qué se refiere lugar? es el país, el estado, la sede -como hotel, institución, etc?) y la fecha es la fecha del taller? o la fecha de respuesta de la encuesta? Tienes razón, el cuestionario está mal, son datos que podemos prellenar, no quisiera la lista desplegable porque el ususario puede equivocarse. Lugar sería Estado, país y la fecha es la de respuesta de la encuesta
+
+2. El "Lugar de nacimiento", es ciudad, país, estado? lo ideal es uno, pero no sé si sea país, o estado en el caso de México, pero no sé el scope del taller
+
+3. Mismo caso con "Lugar de residencia" si es posible que sea estado, país sino sólo país está bien
+
+4. En cuanto a la "Información Profesional", entiendo que pueden seleccionar más de uno, es así? sólo uno amor
+
+5. El "Lugar de Trabajo" es el mismo caso de los otros "lugares" (pregunta 2 y 3) nop, puede que trabaje en un punto fronterizo o algún lugar diferente
+
+6. Como comentario solamente, "Título del trabajo" debe ser "Título del puesto" ok
+
+7. Considero que la pregunta de "cuántos casos  ha manejado usted en los últimos años" debe ser una pregunta independiente, con número sip, tienes razón
+
+8. Desde mi punto de vista, las preguntas 7 y 8 (y la 8.1, refiriéndome al numeral anterior) sólo deben contestarse en caso de que la pregunta 4 o 5 sea respondida afirmativamente ok
+
+
+
